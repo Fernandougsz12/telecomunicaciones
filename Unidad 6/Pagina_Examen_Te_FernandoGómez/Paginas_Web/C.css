@@ -1,0 +1,71 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ddd; /* Texto principal claro */
+}
+
+header {
+    background-color: #333; /* Color de fondo más oscuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centra el texto en el encabezado */
+}
+
+.titulo {
+    font-size: 36px; /* Aumenta el tamaño del título */
+    margin-bottom: 10px;
+    color: #ffd700; /* Color dorado */
+}
+
+/* Agrega un poco más de espacio entre el título y la descripción */
+.subtitulo {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffd700; /* Color dorado */
+}
+
+/* Resalta el enlace en el encabezado */
+.titulo a {
+    color: #ffd700; /* Color dorado */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #444; /* Borde más oscuro */
+    transition: background-color 0.3s ease; /* Añade una transición de color de fondo */
+}
+
+/* Cambia el color de fondo al pasar el ratón sobre una sección */
+section:hover {
+    background-color: #333; /* Color de fondo más oscuro */
+}
+
+/* Ajusta el espaciado del texto en las secciones */
+.subtitulo {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffd700; /* Color dorado */
+}
+
+.texto {
+    font-size: 16px;
+    line-height: 1.5; /* Mejora la legibilidad ajustando la altura de línea */
+}
+
+footer {
+    background-color: #333; /* Color de fondo más oscuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Mejora el aspecto del texto de copyright */
+.copyright {
+    font-size: 14px;
+    margin: 0;
+    color: #ccc;
+}

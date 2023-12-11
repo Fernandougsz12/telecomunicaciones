@@ -1,0 +1,98 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2731; /* Fondo oscuro */
+    color: #ddd; /* Texto principal claro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #34495e; /* Encabezado oscuro */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.introduction {
+    background-color: #2c3e50; /* Fondo de la introducción oscuro */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.introduction h2 {
+    color: #3498db; /* Encabezado de la sección */
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #3498db; /* Azul brillante */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9; /* Cambia el color al pasar el ratón sobre el botón */
+}
+
+.person-data {
+    background-color: #2c3e50; /* Fondo de los datos de la persona oscuro */
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.person-data h2 {
+    color: #3498db; /* Encabezado de la sección */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #34495e; /* Fondo del pie de página oscuro */
+    color: #fff;
+    margin-top: 30px;
+}
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+  }
